@@ -16,8 +16,15 @@ namespace ya_ne_pomnu_kakaya_po_chetu_zadacha
                 {
                     if (NumSystem >= 2 && NumSystem <= 9)
                     {
-                        ConvertToDecimal(Number, NumSystem);
-                        break;
+                        if (IsValidNumberInSystem(Number, NumSystem))
+                        {
+                            ConvertToDecimal(Number, NumSystem);
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("В числе есть цифры, не соответствующие выбранной системе счисления");
+                        }
                     }
                     else
                     {
@@ -29,6 +36,23 @@ namespace ya_ne_pomnu_kakaya_po_chetu_zadacha
                     Console.WriteLine("Были неверно введены данные");
                 }
             }
+        }
+
+        static bool IsValidNumberInSystem(int Number, int NumSystem)
+        {
+            string numStr = Number.ToString();
+            int length = numStr.Length;
+
+            for (int i = 0; i < length; i++)
+            {
+                int digit = int.Parse(numStr[i].ToString());
+                if (digit >= NumSystem)
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         static void ConvertToDecimal(int Number, int NumSystem)
