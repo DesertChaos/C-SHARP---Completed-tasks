@@ -87,5 +87,6 @@ namespace ya_ne_pomnu_kakaya_po_chetu_zadacha
 
             Console.WriteLine($" = {EndResult} в {EndNumSystem} системе счисления");
         }
+        Console.ForegroundColor = ConsoleColor.Black;
     }
 }
