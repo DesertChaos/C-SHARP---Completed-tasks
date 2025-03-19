@@ -13,13 +13,13 @@ namespace ConsoleApp1
                 Console.WriteLine("неправильно введены данные");
             }
 
-            Console.WriteLine("коорды пушки (y)");
-            while (!int.TryParse(Console.ReadLine(), out y0)){
+            Console.WriteLine("коорды пушки (y) (y>=0)");
+            while (!int.TryParse(Console.ReadLine(), out y0) | y0 < 0){
                 Console.WriteLine("неправильно введены данные");
             }
 
-            Console.WriteLine("Начальная скорость v0");
-            while (!int.TryParse(Console.ReadLine(), out v0))
+            Console.WriteLine("Начальная скорость v0 (v0>=0)");
+            while (!int.TryParse(Console.ReadLine(), out v0) | v0 < 0)
             {
                 Console.WriteLine("неправильно введены данные");
             }
