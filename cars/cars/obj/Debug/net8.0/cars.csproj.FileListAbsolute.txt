@@ -1,0 +1,14 @@
+C:\Users\Вадим\Desktop\cars\cars\bin\Debug\net8.0\cars.exe
+C:\Users\Вадим\Desktop\cars\cars\bin\Debug\net8.0\cars.deps.json
+C:\Users\Вадим\Desktop\cars\cars\bin\Debug\net8.0\cars.runtimeconfig.json
+C:\Users\Вадим\Desktop\cars\cars\bin\Debug\net8.0\cars.dll
+C:\Users\Вадим\Desktop\cars\cars\bin\Debug\net8.0\cars.pdb
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.AssemblyInfoInputs.cache
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.AssemblyInfo.cs
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.csproj.CoreCompileInputs.cache
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.dll
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\refint\cars.dll
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.pdb
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\cars.genruntimeconfig.cache
+C:\Users\Вадим\Desktop\cars\cars\obj\Debug\net8.0\ref\cars.dll
